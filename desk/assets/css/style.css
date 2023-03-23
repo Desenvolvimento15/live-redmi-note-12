@@ -9,7 +9,7 @@ font-family: 'Camphor-Pro-Regular';
 font-style: normal;
 font-weight: 400;
 font-display: swap;
-src: url('https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/CamphorPro-Regular/0.woff2?v=l2hkavoi') format('woff2');
+src: url('./0.woff2') format('woff2');
 unicode-range: U+1F00-1FFF;
 }
 
