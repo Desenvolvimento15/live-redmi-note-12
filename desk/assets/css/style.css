@@ -88,6 +88,13 @@ width: 42.15vw;
     line-height: 1.5;
 }
 
+.p-preto{
+    font-size: .94vw;
+    margin-top: 0.94vw;
+    text-align: left;
+    width: 23.44vw;
+}
+
 .section02{
     margin: 5rem;
     text-align: center;
