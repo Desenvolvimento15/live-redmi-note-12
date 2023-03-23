@@ -48,26 +48,24 @@ width: 100%;
 }
 
 .header-1, .header-1-calendar {
-    align-items: center;
-    display: flex;
-    justify-content: center;
+align-items: center;
+display: flex;
+justify-content: center;
 }
 
 .header-1-text {
-    align-items: center;
-    color: #191919;
-    display: flex;
-    flex-direction: column;
+align-items: center;
+color: #191919;
+display: flex;
+flex-direction: column;
 }
 .header-1-text-1 {
-    background-size: 42.15vw 9.49vw;
-    font-size: 1.95vw;
-    height: 9.49vw;
-    line-height: 2.81vw;
-    width: 42.15vw;
+background-size: 42.15vw 9.49vw;
+font-size: 1.95vw;
+height: 9.49vw;
+line-height: 2.81vw;
+width: 42.15vw;
 }
-
-
 
 
 
