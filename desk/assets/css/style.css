@@ -9,17 +9,17 @@ font-family: 'Camphor-Pro-Regular';
 font-style: normal;
 font-weight: 400;
 font-display: swap;
-src: url(../css/0.woff2) format('woff2');
+src: url(/desk/assets/css/0.woff2) format('woff2');
 unicode-range: U+1F00-1FFF;
 }
 
 img,
 video {
-  height: auto;
-  max-width: 100%;
+height: auto;
+max-width: 100%;
 }
 [hidden] {
-  display: none;
+display: none;
 }
 
 .grid{
