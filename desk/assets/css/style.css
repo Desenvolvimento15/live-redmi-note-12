@@ -202,3 +202,24 @@ body{
     transform: translate(-50%,-50%);
     width: 29.69vw
 }
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 60px;
+    z-index: 9999;
+    border: none;
+    outline: none;
+    background-color: #191919;
+    color: white;
+    cursor: pointer;
+    padding: 25px;
+    border-radius: 10px;
+  }
+
+  #myBtn:hover {
+    background-color: #ff6900;
+  }
+
