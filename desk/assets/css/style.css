@@ -9,7 +9,7 @@ font-family: 'Camphor-Pro-Regular';
 font-style: normal;
 font-weight: 400;
 font-display: swap;
-src: url(/desk/assets/css/0.woff2) format('woff2');
+src: url(./desk/assets/css/0.woff2) format('woff2');
 unicode-range: U+1F00-1FFF;
 }
 
@@ -20,6 +20,15 @@ max-width: 100%;
 }
 [hidden] {
 display: none;
+}
+
+footer{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+body{
+    font-family: 'Camphor Pro';
 }
 
 .grid{
@@ -110,14 +119,7 @@ width: 42.15vw;
     text-align: center;
 }
 
-footer{
-    text-align: center;
-    padding: 1.5rem;
-}
 
-body{
-    font-family: 'Camphor Pro';
-}
 
 .email {
     align-items: center;
