@@ -1,18 +1,17 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'Camphor-Pro-Regular';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/CamphorPro-Regular/0.woff2?v=l2hkavoi') format('woff2');
-    unicode-range: U+1F00-1FFF;
-  }
-
+font-family: 'Camphor-Pro-Regular';
+font-style: normal;
+font-weight: 400;
+font-display: swap;
+src: url('https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/CamphorPro-Regular/0.woff2?v=l2hkavoi') format('woff2');
+unicode-range: U+1F00-1FFF;
+}
 
 img,
 video {
@@ -24,17 +23,53 @@ video {
 }
 
 .grid{
-    display: grid;
-    max-width: 100%;
-    grid-template-columns: 1fr 1fr;
-    background-position: center;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    gap: 1rem;
-    margin: 5rem;
+display: grid;
+max-width: 100%;
+grid-template-columns: 1fr 1fr;
+background-position: center;
+align-content: center;
+justify-content: center;
+align-items: center;
+justify-items: center;
+gap: 0.5rem;
+padding: 5rem;
 }
+
+.header-1 {
+background-image: url(../media/capa.png);
+background-position: 50%;
+background-size: cover;
+box-sizing: border-box;
+flex-direction: column;
+height: 37.5vw;
+padding: 0 8.98vw;
+position: relative;
+width: 100%;
+}
+
+.header-1, .header-1-calendar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header-1-text {
+    align-items: center;
+    color: #191919;
+    display: flex;
+    flex-direction: column;
+}
+.header-1-text-1 {
+    background-size: 42.15vw 9.49vw;
+    font-size: 1.95vw;
+    height: 9.49vw;
+    line-height: 2.81vw;
+    width: 42.15vw;
+}
+
+
+
+
 
 .title-azul{
     font-size: 2.5rem;
@@ -42,8 +77,11 @@ video {
 }
 
 .title-preto{
-    color: black;
-    font-size: 2.5rem;
+    font-size: 1.88vw;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: left;
+    width: 23.44vw;
 }
 
 .p-azul{
@@ -60,7 +98,7 @@ video {
 .section04{
     margin: 0;
     text-align: center;
-    margin-bottom: 10rem;
+    margin-bottom: 3..5rem;
 }
 
 .section05{
@@ -75,7 +113,6 @@ footer{
 body{
     font-family: 'Camphor Pro';
 }
-
 
 .email {
     align-items: center;
@@ -222,4 +259,3 @@ body{
   #myBtn:hover {
     background-color: #ff6900;
   }
-
