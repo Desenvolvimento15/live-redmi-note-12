@@ -31,6 +31,31 @@ body{
 font-family: 'Camphor Pro';
 }
 
+a{
+    text-decoration: none;
+}
+.top-header {
+    align-items: center;
+    color: #191919;
+    display: flex;
+    font-size: .94vw;
+    font-weight: 400;
+    justify-content: space-between;
+    line-height: 1.13vw;
+    padding: 1.17vw 1.88vw 0 1.17vw;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.top-header .header-logo {
+    background-image: url(https://i05.appmifile.com/events/logos/orange-logo.png);
+    background-size: 100%;
+    display: inline-block;
+    height: 2.34vw;
+    width: 2.34vw;
+}
 .grid{
 display: grid;
 max-width: 100%;
