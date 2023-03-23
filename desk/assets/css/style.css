@@ -5,12 +5,8 @@ box-sizing: border-box;
 }
 
 @font-face {
-font-family: 'Camphor-Pro-Regular';
-font-style: normal;
-font-weight: 400;
-font-display: swap;
-src: url(./desk/assets/css/0.woff2) format('woff2');
-unicode-range: U+1F00-1FFF;
+    font-family: 'CamphorPro-Regular';
+    src: url(https://i05.appmifile.com/events/fonts/0111/CamphorPro-Regular.otf) format("opentype")
 }
 
 img,
@@ -28,7 +24,7 @@ padding: 1.5rem;
 }
 
 main{
-font-family: 'Camphor Pro';
+font-family: 'Camphor-Pro-Regular';
 }
 
 a{
