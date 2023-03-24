@@ -72,6 +72,20 @@ padding: 5rem;
     background-position: center;
 }
 
+.phone-flex{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.galeria{
+    padding: 7rem;
+
+background: linear-gradient(-0deg,  rgb(206, 206, 206) 0%, rgba(166,213,250,1) 100%);
+}
 .header-1 {
 background-image: url(../media/capa.png);
 background-position: 50%;
@@ -118,6 +132,14 @@ text-align: left;
 width: 23.44vw;
 }
 
+.title-preto-phone{
+    font-size: 1.88vw;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+    width: 23.44vw;   
+}
+
 .p-azul{
 font-size: 1.3rem;
 color: #2581d5;
@@ -128,6 +150,14 @@ line-height: 1.5;
 font-size: .94vw;
 margin-top: 0.94vw;
 text-align: left;
+width: 23.44vw;
+}
+
+
+.p-preto-phone{
+    font-size: .94vw;
+margin-top: 0.94vw;
+text-align: center;
 width: 23.44vw;
 }
 
@@ -290,10 +320,28 @@ padding: 25px;
 border-radius: 10px;
 }
 
+
 #myBtn:hover {
 background-color: #ff6900;
 }
 
-.img-phone{
-    width: 25rem;
+
+
+
+
+#myBtn-phone{
+border: none;
+outline: none;
+background-color: #191919;
+color: white;
+cursor: pointer;
+padding: 25px;
+border-radius: 10px;
+bottom: 50px;
+right: 60px;
+}
+
+
+#myBtn-phone:hover{
+    background-color: #ff6900;
 }
