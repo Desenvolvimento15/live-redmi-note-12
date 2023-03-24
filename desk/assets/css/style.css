@@ -66,24 +66,23 @@ padding: 5rem;
 }
 
 .grid-galeria{
-    display: grid;
-    max-width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-position: center;
+display: grid;
+max-width: 100%;
+grid-template-columns: 1fr 1fr 1fr;
+background-position: center;
 }
 
 .phone-flex{
     
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
 }
 .galeria{
-    padding: 7rem;
-
+padding: 7rem;
 background: linear-gradient(-0deg,  rgb(206, 206, 206) 0%, rgba(166,213,250,1) 100%);
 }
 .header-1 {
