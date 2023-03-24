@@ -293,3 +293,7 @@ border-radius: 10px;
 #myBtn:hover {
 background-color: #ff6900;
 }
+
+.img-phone{
+    width: 25rem;
+}
