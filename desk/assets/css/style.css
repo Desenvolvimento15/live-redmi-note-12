@@ -65,6 +65,13 @@ gap: 0.5rem;
 padding: 5rem;
 }
 
+.grid-galeria{
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-position: center;
+}
+
 .header-1 {
 background-image: url(../media/capa.png);
 background-position: 50%;
