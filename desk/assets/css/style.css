@@ -83,7 +83,7 @@ align-items: center;
 }
 .galeria{
 padding: 7rem;
-background: linear-gradient(-0deg,  rgb(206, 206, 206) 0%, rgba(166,213,250,1) 100%);
+background: radial-gradient(rgb(255, 255, 255) 0%,rgb(45, 158, 245) 100%);
 }
 .header-1 {
 background-image: url(../media/capa.png);
