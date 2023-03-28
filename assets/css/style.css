@@ -9,6 +9,11 @@ font-family: 'Camphor Pro';
 src: url(https://i05.appmifile.com/events/fonts/0111/CamphorPro-Regular.otf) format("opentype")
 }
 
+
+/*.galeria{
+    display: none;
+}*/
+
 @media screen and (min-width:1000px) {
 
 #mob{
@@ -346,7 +351,6 @@ right: 60px;
 background-color: #ff6900;
 }
 }
-
 
 
 @media screen and (max-width:999px) {
