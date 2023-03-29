@@ -19,23 +19,23 @@ color: #000;
 button{border: none;}
 
 footer{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
 }
 
 .foot{
-    text-align: center;
-    padding: 1.5rem;
-    border: 0;
-    border-top: 1px solid rgb(199, 199, 199);
-    width: 70%;
+text-align: center;
+padding: 1.5rem;
+border: 0;
+border-top: 1px solid rgb(199, 199, 199);
+width: 70%;
 }
 
-.modal {
+.modal{
 display: none;
 position: fixed; 
 z-index: 1; 
@@ -117,8 +117,7 @@ align-content: center;
 justify-content: center;
 align-items: center;
 justify-items: center;
-gap: 0.5rem;
-padding: 5rem;
+padding: 20rem;
 }
 
 .grid-galeria{
@@ -129,7 +128,6 @@ background-position: center;
 }
 
 .phone-flex{
-
 display: flex;
 flex-direction: column;
 flex-wrap: nowrap;
@@ -137,10 +135,12 @@ align-content: center;
 justify-content: center;
 align-items: center;
 }
+
 .galeria{
 padding: 7rem;
 background: radial-gradient(rgb(255, 255, 255) 0%,rgb(45, 158, 245) 100%);
 }
+
 .header-1 {
 background-image: url(../media/capa.png);
 background-position: 50%;
@@ -172,7 +172,6 @@ height: 9.49vw;
 line-height: 2.81vw;
 width: 42.15vw;
 }
-
 
 .title-azul{
 font-size: 2.5rem;
@@ -208,7 +207,6 @@ text-align: left;
 width: 23.44vw;
 }
 
-
 .p-preto-phone{
 font-size: .94vw;
 margin-top: 0.94vw;
@@ -230,7 +228,6 @@ margin-bottom: 3..5rem;
 .section05{
 text-align: center;
 }
-
 
 
 .email {
