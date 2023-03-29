@@ -16,8 +16,23 @@ text-decoration: none;
 color: #000;
 }
 
-button{
-    border: none;
+button{border: none;}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot{
+    text-align: center;
+    padding: 1.5rem;
+    border: 0;
+    border-top: 1px solid rgb(199, 199, 199);
+    width: 70%;
 }
 
 .modal {
@@ -65,11 +80,6 @@ max-width: 100%;
 }
 [hidden] {
 display: none;
-}
-
-footer{
-text-align: center;
-padding: 1.5rem;
 }
 
 body, html{
