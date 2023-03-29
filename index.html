@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Celebre a vida - Redmi Note 12</title>
 
-    <link rel="stylesheet" href="./assets/css/style.css" rel='stylesheet'>
-    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-up-r.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-up-r.css' >
 
 </head>
 
@@ -73,7 +73,8 @@
         <div class="grid" id="desk">
 
             <div class="grid-01">
-                <button id="myModal"><img src="./assets/media/img-video02.jpg" alt=""></button>
+                <button id="Btn"><img src="./assets/media/img-video02.jpg" alt=""></button>
+                
             </div>
 
             <div class="grid-text">
@@ -107,7 +108,7 @@
             <div class="grid-05">
                 <img src="./assets/media/img-05.png" alt="">
             </div>
- 
+
         </div>
         
         <!--Fim desk-->
@@ -175,17 +176,26 @@
 
 </main>
 
-<!--<div class="video-modal">
-<div class="video-close">
-<img class="iframe-close" src="https://i02.appmifile.com/events/l12-preheat-live/close-live.png">
+<div id="myModal" class="modal">
+
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <video class="video-modal-content" src="./assets/media/01.mp4" controls="" preload="auto" autoplay="" style="width: 100%; height: 100%;">
+    </div>
+  
 </div>
-<video class="video-modal-content" src="https://i02.appmifile.com/420_operatorx_operatorx_xm/15/03/2023/fc85e9cdb4e3f279b0b5a93e761d72d8.mp4" controls="" preload="auto" autoplay="" style="width: 100%; height: 100%;">
-</video>
-</div>--> 
+
+<div id="myModal" class="modal">
+
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <video class="video-modal-content" src="./assets/media/02.mp4" controls="" preload="auto" autoplay="" style="width: 100%; height: 100%;">
+    </div>
+  
+</div>
+
 
 <footer><p>Direitos autorais © 2010 - 2023 Xiaomi.<br>Todos os direitos reservados</p></footer>
-
 <script src="./assets/js/main.js"></script>
-
 </body>
 </html>
