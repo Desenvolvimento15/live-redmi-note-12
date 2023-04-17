@@ -24,10 +24,7 @@ $(document).ready(function() {
       $("#video").attr('src',$videoSrc); 
   }) 
       
-      
-  
-  
-    
+
     
   // document ready  
   });
