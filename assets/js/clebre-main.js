@@ -1,33 +1,23 @@
-$(document).ready(function() {
+// Get the button
+let mybutton = document.getElementById("myBtn");
 
-  // Gets the video src from the data-src on each button
-  
-  var $videoSrc;  
-  $('.video-btn').click(function() {
-      $videoSrc = $(this).data( "src" );
-  });
-  console.log($videoSrc);
-  
-    
-  // when the modal is opened autoplay it  
-  $('#myModal').on('shown.bs.modal', function (e) {
-      
-  // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-  $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
-  
-  })
-    
-  
-  // stop playing the youtube video when I close the modal
-  $('#myModal').on('hide.bs.modal', function (e) {
-      // a poor man's stop video
-      $("#video").attr('src',$videoSrc); 
-  }) 
-      
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
 
-    
-  // document ready  
-  });
-  
-  
-  
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+
+function topFunction() {
+    verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+    element = $('body');
+    offset = element.offset();
+    offsetTop = offset.top;
+    $('html, body').animate({scrollTop: offsetTop}, 600, 'linear').animate({scrollTop:25},200).animate({scrollTop:0},150) .animate({scrollTop:0},50);
+}

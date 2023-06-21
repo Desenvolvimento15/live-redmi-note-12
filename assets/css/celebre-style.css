@@ -4,6 +4,8 @@ padding: 0;
 box-sizing: border-box;
 }
 
+
+
 @font-face {
 font-family: 'Camphor Pro';
 src: url(https://i05.appmifile.com/events/fonts/0111/CamphorPro-Regular.otf) format("opentype")
@@ -35,30 +37,45 @@ border-top: 1px solid rgb(199, 199, 199);
 width: 70%;
 }
 
-.modal-dialog {
-    max-width: 800px;
-    margin: 30px auto;
-}
-
-
-
-.modal-body {
-position:relative;
-padding:0px;
-}
-.close {
-position:absolute;
-right:-30px;
-top:0;
-z-index:999;
-font-size:2rem;
-font-weight: normal;
-color:#fff;
-opacity:1;
-}
-
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 60px;
+    z-index: 9999;
+    border: none;
+    outline: none;
+    background-color: #191919;
+    color: white;
+    cursor: pointer;
+    padding: 25px;
+    border-radius: 10px;
+    }
+    
+    #myBtn:hover {
+    background-color: #ff6900;
+    }
+    
+    #myBtn-phone{
+    border: none;
+    outline: none;
+    background-color: #191919;
+    color: white;
+    cursor: pointer;
+    padding: 25px;
+    border-radius: 10px;
+    bottom: 50px;
+    right: 60px;
+    }
+    
+    
+    #myBtn-phone:hover{
+    background-color: #ff6900;
+    }
+    
 
 @media screen and (min-width:1000px) {
+        
 
 #mob{
 display: none;
@@ -347,7 +364,7 @@ transform: translate(-50%,-50%);
 width: 29.69vw
 }
 
-#myBtn {
+/*#myBtn {
 display: none;
 position: fixed;
 bottom: 50px;
@@ -381,7 +398,7 @@ right: 60px;
 
 #myBtn-phone:hover{
 background-color: #ff6900;
-}
+}*/
 }
 
 
